@@ -1,0 +1,16 @@
+# Secrets & local config
+.env
+.env.local
+
+
+# Docker volumes & data (never commit real database or wp files)
+mysql_data/
+wp-data/
+wp-app/
+
+# Common junk
+*.log
+*.bak
+*.sql
+.DS_Store
+Thumbs.db
