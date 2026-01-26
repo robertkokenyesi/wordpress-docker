@@ -18,3 +18,12 @@ Runs WordPress on port 85[](http://localhost:85) so it doesn't conflict with oth
    ```bash
    git clone https://github.com/robertkokenyesi/wordpress-docker.git
    cd wordpress-docker
+2. Prepare environment file
+    cp .env.example .env
+    nano .env #change all values to secure ones!
+3. Start container
+    docker compose -f docker-compose.yml up -d
+4. Open in browser:
+    WordPress: http://localhost:85
+    First install wizard should appear
+5. Stop docker compose down # if need
