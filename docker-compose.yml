@@ -8,7 +8,7 @@ services:
     expose:
       - 80
     volumes:
-      - ./config/php.conf.ini/uploads.ini:/usr/local/etc/php/conf.d/conf.ini/uploads.ini
+      - ./config/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./wp-app:/var/www/html
       #- ./plugin-name/trunk/:/var/www/html/wp-content/plugins/plugin-name # Plugin development
       #- ./theme-name/trunk/:/var/www/html/wp-content/themes/theme-name # Theme development
